@@ -315,7 +315,7 @@ p {
 
   border: 1px solid #FFE49D;
   background: #FFE49D;
-  color: #221010;
+  color: #141414;
 
   display: flex;
   align-items: center;
@@ -343,14 +343,14 @@ p {
 .download__buttons button:hover,
 .reviews-arrow:hover {
   background: #b8b8b8;
-  color: #221010;
+  color: #141414;
   border-color: #b8b8b8;
 }
 
 .download__buttons button:active,
 .reviews-arrow:active {
   background: #8f8f8f;
-  color: #221010;
+  color: #141414;
   transform: scale(0.96);
 }
 
