@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Второй шанс.</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="#hero" class="header-logo">
+        <img src="./img/logo-owl.png" alt="Второй шанс.">
+      </a>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu" id="menu">
+        <a href="#about">О приложении</a>
+        <a href="#features">Возможности</a>
+        <a href="#steps">Схема победы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#download">Скачать</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <img class="hero-bg-phone" src="./img/bg.png" alt="" aria-hidden="true">
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <img class="hero-logo-big" src="./img/logo-owl.png" alt="Второй шанс.">
+          <h1>Второй шанс.</h1>
+          <p>Игра с преподавателем вместо пересдачи</p>
+        </div>
+
+        <div class="hero__empty"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__inner">
+        <div class="about__text">
+          <h2>О приложении</h2>
+
+          <p>Устали от бесконечных пересдач и стресса перед экзаменами? «Второй шанс» — это не просто очередное приложение для учебы. Это ваш надежный союзник, который превращает утомительную подготовку в захватывающее приключение.</p>
+
+          <p>Мы кардинально меняем подход к обучению. Вместо скучной зубрежки — активное взаимодействие с материалом. Вместо страха перед экзаменом — азарт и желание побеждать.</p>
+
+          <p>Всё начинается с подготовки. Приложение синхронизируется с университетской базой данных, поэтому у вас всегда есть доступ к актуальным материалам по вашим предметам. Вы можете изучать их в удобном режиме чтения, вести заметки, выделять главное и проходить тесты, чтобы проверить себя.</p>
+        </div>
+
+        <div class="about__books">
+          <img class="book fly-from-right" src="./img/book-1.png" alt="Книга 1">
+          <img class="book fly-from-right" src="./img/book-2.png" alt="Книга 2">
+          <img class="book fly-from-right" src="./img/book-3.png" alt="Книга 3">
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="container features__inner">
+        <h2 class="features__title">Возможности</h2>
+
+        <div class="features__body">
+          <img class="ticket" src="./img/ticket.png" alt="Билет">
+
+          <div class="features__list">
+            <div class="features__item features__item--long">Лёгкий доступ к лекциям</div>
+            <div class="features__item features__item--long">Пересдача в формате игры</div>
+            <div class="features__item features__item--short">Конспекты</div>
+            <div class="features__item features__item--short">ИИ-помощник</div>
+            <div class="features__item features__item--short">Проверка знаний</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="steps">
+      <div class="container">
+        <h2>Схема победы</h2>
+
+        <div class="steps__grid">
+          <div class="step step--one">Шаг 1<br>Учись</div>
+          <div class="step step--two">Шаг 2<br>Бросай<br>вызов</div>
+          <div class="step step--three">Шаг 3<br>Побеждай</div>
+          <div class="step step--four">Шаг 4<br>Получай<br>достижение</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="container reviews__inner">
+        <h2>Отзывы</h2>
+
+        <div class="reviews__slider-wrap">
+          <button class="reviews-arrow reviews-arrow--left" id="prevReview" type="button">‹</button>
+
+          <div class="reviews__window">
+            <div class="reviews__track" id="reviewsTrack">
+              <article class="review-card">
+                <div class="stars">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                </div>
+
+                <p>Я никогда не думал, что смогу закрыть матан без пересдачи. Сыграл с преподом в шахматы — и выиграл! Он сам предложил реванш, но я уже ушёл с автоматом. Спасибо, Второй шанс!</p>
+
+                <div class="review-person">
+                  <img src="./img/review-person-1.png" alt="Фото пользователя">
+                  <span>Артём</span>
+                </div>
+              </article>
+
+              <article class="review-card">
+                <div class="stars">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                </div>
+
+                <p>Я почти ничего не знала по истории. ИИ-помощник разложил всё по полочкам, я прошла проверку знаний и рискнула вызвать преподавателя на викторину.</p>
+
+                <div class="review-person">
+                  <img src="./img/review-person-1.png" alt="Фото пользователя">
+                  <span>Марина</span>
+                </div>
+              </article>
+
+              <article class="review-card">
+                <div class="stars">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                  <img src="./img/star.png" alt="">
+                </div>
+
+                <p>Обычно перед пересдачей я трясусь за день. А тут просто играл в Монополию с преподом и отвечал на вопросы между ходами. Сдал. Без слёз. Без паники. Второй шанс — магия какая-то.</p>
+
+                <div class="review-person">
+                  <img src="./img/review-person-1.png" alt="Фото пользователя">
+                  <span>Егор</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <button class="reviews-arrow reviews-arrow--right" id="nextReview" type="button">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section download" id="download">
+      <div class="container download__inner">
+        <h2>Скачать приложение</h2>
+
+        <div class="download__buttons">
+          <button type="button">
+            <img src="./img/icon-apple.png" alt="Apple">
+            <span>Скачать App Store</span>
+          </button>
+
+          <button type="button">
+            <img src="./img/icon-google-play.png" alt="Google Play">
+            <span>Скачать Google Play</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#about">О приложении</a>
+        <a href="#features">Возможности</a>
+        <a href="#steps">Схема победы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#download">Скачать</a>
+      </div>
+
+      <div>
+        <strong class="footer-logo-text">Второй шанс.</strong>
+        <p>© 2026. Все права защищены.</p>
+      </div>
+
+      <div>
+        <p>Контакты</p>
+        <p>example@mail.ru</p>
+        <p>+7 999 333 66 45</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $('#burger').on('click', function () {
+      $('#menu').toggleClass('menu--open');
+    });
+
+    $('#menu a').on('click', function () {
+      $('#menu').removeClass('menu--open');
+    });
+
+    function showOnScroll() {
+      $('.fly-from-right').each(function () {
+        var blockTop = $(this).offset().top;
+        var windowBottom = $(window).scrollTop() + $(window).height();
+
+        if (windowBottom > blockTop + 80) {
+          $(this).addClass('is-visible');
+        }
+      });
+
+      $('.ticket').each(function () {
+        var ticketTop = $(this).offset().top;
+        var windowBottom = $(window).scrollTop() + $(window).height();
+
+        if (windowBottom > ticketTop + 80) {
+          $(this).addClass('ticket-animate');
+        }
+      });
+    }
+
+    $(window).on('scroll load', showOnScroll);
+
+    var currentReview = 0;
+    var reviewsCount = $('.review-card').length;
+
+    function moveReviews() {
+      var maxReview = reviewsCount - 1;
+
+      if (currentReview < 0) currentReview = maxReview;
+      if (currentReview > maxReview) currentReview = 0;
+
+      $('#reviewsTrack').css(
+        'transform',
+        'translateX(-' + (currentReview * 42) + '%)'
+      );
+    }
+
+    $('#nextReview').on('click', function () {
+      currentReview++;
+      moveReviews();
+    });
+
+    $('#prevReview').on('click', function () {
+      currentReview--;
+      moveReviews();
+    });
+
+    $(window).on('resize', moveReviews);
+    moveReviews();
+  </script>
+</body>
+</html>
