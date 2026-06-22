@@ -488,7 +488,7 @@ p {
 
   border: 1px solid #FFE49D;
   background: #FFE49D;
-  color: #221010;
+  color: #141414;
 
   font-size: clamp(12px, 0.9vw, 15px);
   font-weight: 700;
@@ -504,7 +504,7 @@ p {
 
 .footer {
   padding: 48px 0;
-  background: #130d0d;
+  background: #141414;
   border-top: 1px solid rgba(255, 210, 139, 0.22);
 }
 
